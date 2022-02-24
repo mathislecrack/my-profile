@@ -1,0 +1,119 @@
+body {
+ font-family: 'Redressed', cursive;
+ background-color: #ADB5BD ;
+ font-size: 20px;
+ color: #343A40;
+ }
+
+h1 {
+font-weight: 100;
+ }
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 25px;
+  color: #6C757D ;
+ }
+
+.container {
+ width: 800px;
+ margin: 40px auto;
+ }
+
+.card-white {
+ background: white;
+ padding: 40px;
+ border-radius: 4px;
+ box-shadow: 0 10px 30px rgba(0,0,0,.3);
+ margin : 40px auto;
+ border : 2px solid #212529;
+ text-align: center;
+ }
+
+a {
+ color: #ADB5BD;
+ text-decoration: none;
+ }
+
+.list-inline {
+ list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0px 20px;
+ }
+
+#social_networks {
+ font-size:30px;
+ letter-spacing: 50px;
+ text-decoration: none
+}
+
+
+a:hover {
+ color: #003358;
+ font-weight: bold;
+ text-decoration: underline;
+ transition: color 0.3s ease;
+ }
+
+#linkedin:hover{
+ color:#0A66C2 ;
+ text-decoration: none;
+ }
+
+#instagram:hover{
+ color:#914BC5 ;
+ text-decoration: none;
+ }
+
+#facebook:hover{
+ color:#42579A ;
+ text-decoration: none;
+ }
+
+#pfp {
+  border-radius: 50%;
+  border: solid 1px;#ADB5BD ;
+
+}
+
+.btn-blue {
+  font-family: 'Lato', sans-serif;
+  background-color: #003358 ;
+  color : white;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 10px 20px;
+ }
+
+.btn-blue:hover {
+  color: white;
+  text-decoration: none;
+  background-color:#343A40 ;
+ }
+
+@media (max-width : 960px) {
+ .container {
+  width : 700px
+ }
+
+@media (max-width : 720px) {
+ .container {
+  width : 500px
+ }
+
+ @media (max-width : 540px) {
+ .container {
+  width : 300px
+ }
+
+#introduction a {
+ margin-top: 40px;
+ }
+
+
+
